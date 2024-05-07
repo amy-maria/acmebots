@@ -8,7 +8,7 @@
       name="description"
       content="TailwindCSS project with custom styling" />
     <meta mame="author" content="Amy Rowell with tutorial from Dave Gray" />
-    <link rel="stylesheet" href="acmebots/src/style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <script src="/main.js" defer></script>
   </head>
 
@@ -234,7 +234,9 @@
           Contact Us
         </h2>
         <form
-          action=""
+          name="contact"
+          method="POST"
+          netlify
           class="items-left mx-auto flex max-w-4xl flex-col gap-4 text-2xl sm:text-3xl">
           <label for="subject">Subject:</label>
           <input
